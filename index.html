@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f8f6ef">
+  <meta name="tutorial-build" content="b616fb079ec1107cb91d">
+  <meta name="description" content="관리사무소에서 입주자 미확인 세대를 처리하는 실험으로 마틴 파울러의 Introduce Special Case 리팩토링을 배웁니다.">
+  <title>Introduce Special Case · 리팩토링 실험실</title>
+  <link rel="icon" href="./_build/b616fb079ec1107cb91d/assets/icon.png" type="image/png">
+  <link rel="stylesheet" href="./_build/b616fb079ec1107cb91d/styles/tokens.css">
+  <link rel="stylesheet" href="./_build/b616fb079ec1107cb91d/styles/base.css">
+  <link rel="stylesheet" href="./_build/b616fb079ec1107cb91d/styles/components.css">
+  <script type="module" src="./_build/b616fb079ec1107cb91d/src/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#lesson" data-start>실습으로 건너뛰기</a>
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <a class="wordmark" href="./" data-home aria-label="리팩토링 실험실 처음으로"><span class="brand-symbol" aria-hidden="true"><i></i></span>리팩토링 실험실</a>
+      <div class="header-links">
+        <a href="https://refactoring.com/catalog/introduceSpecialCase.html">파울러 원문 <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/Technoetic/introduce-special-case">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow intro-label"><span aria-hidden="true"></span> REFACTORING FIELD GUIDE</p>
+        <h1 id="hero-title" lang="en">Introduce<br><em>Special Case</em></h1>
+        <p class="hero-summary"><strong>입주자를 모를 때, 어떤 카드를 꺼낼까?</strong><br>관리사무소의 세 업무를 따라가며, 반복되는 조건문을<br class="wide-break"> ‘미확인 입주자 카드’ 한 장으로 바꿔 봅니다.</p>
+        <button class="button start" type="button" data-start>실습 시작하기 <span aria-hidden="true">↓</span></button>
+      </div>
+      <figure class="diagram">
+        <div class="diagram-top"><span class="figure-label"><i aria-hidden="true"></i> 세대 조회 도면</span><span class="drawing-index" lang="en">FIG. 01</span></div>
+        <div class="diagram-image"><img src="./_build/b616fb079ec1107cb91d/assets/apartment.webp" width="2200" height="1380" alt="두 동이 이어진 아파트에서 입주자가 확인되지 않은 한 세대의 주황색 창문이 물음표로 연결돼 있다."></div>
+        <figcaption><span class="legend-dot" aria-hidden="true"></span> 입주자 미확인 세대</figcaption>
+      </figure>
+    </section>
+    <nav class="steps" aria-label="실습 단계">
+      <a href="#/observe" data-nav><span class="step-no">01</span> 조건 관찰</a>
+      <a href="#/refactor" data-nav><span class="step-no">02</span> 표준 카드 도입</a>
+      <a href="#/verify" data-nav><span class="step-no">03</span> 결과 검증</a>
+    </nav>
+    <section id="lesson" tabindex="-1" aria-label="리팩토링 실습"><noscript>이 실습에서 세대를 선택하고 전후 결과를 비교하려면 자바스크립트를 켜 주세요.</noscript></section>
+  </main>
+  <footer class="footer"><div class="wrap"><span>리팩토링 실험실</span><a href="https://refactoring.com/catalog/introduceSpecialCase.html">Martin Fowler · Refactoring Catalog ↗</a></div></footer>
+</body>
+</html>
