@@ -1,0 +1,17 @@
+@font-face{font-family:DM Serif Text;src:url('../assets/DMSerifText-Regular.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:DM Serif Text;src:url('../assets/DMSerifText-Italic.ttf') format('truetype');font-style:italic;font-weight:400;font-display:swap}
+:root{
+  --paper:#f8f6ef;
+  --card:#fffdf7;
+  --ink:#182e29;
+  --muted:#56635d;
+  --line:#cfcec2;
+  --faint:#e7e5da;
+  --accent:#ad452a;
+  --accent-pale:#fae8dd;
+  --forest:#204b3c;
+  --forest-pale:#e6ede5;
+  --serif:'DM Serif Text',Georgia,serif;
+  --sans:Inter,'Apple SD Gothic Neo','Malgun Gothic','맑은 고딕',system-ui,sans-serif;
+  --mono:'IBM Plex Mono',Consolas,'Liberation Mono',monospace;
+}

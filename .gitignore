@@ -1,0 +1,3 @@
+/dist/
+/.pages-build-*/
+node_modules/
